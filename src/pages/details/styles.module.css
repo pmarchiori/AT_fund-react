@@ -1,0 +1,66 @@
+.content {
+  display: flex;
+  padding: 80px;
+  gap: 50px;
+}
+
+.content .details p:first-child {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.content img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.content .details p:first-child {
+  font-size: 2rem;
+}
+
+.content .details p:nth-of-type(2) {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.content .details p:nth-of-type(3) {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.content .details p:nth-of-type(4) {
+  font-weight: 400;
+}
+
+.content .details p:nth-of-type(5) {
+  margin-top: 40px;
+  font-weight: 300;
+}
+
+.btn_container {
+  margin-top: 50px;
+}
+
+.editButton {
+  border: 0;
+  border-radius: 5px;
+  padding: 7px 20px;
+  cursor: pointer;
+  background-color: #3ecc75;
+  color: black;
+  margin-right: 10px;
+}
+
+.editButton:hover {
+  background-color: #37a863;
+}
+
+.deleteButton {
+  border-radius: 5px;
+  padding: 7px 20px;
+  cursor: pointer;
+  border: 1px solid #3ecc75;
+  color: #3ecc75;
+  background: none;
+}

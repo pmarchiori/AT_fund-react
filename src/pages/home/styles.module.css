@@ -1,0 +1,71 @@
+.container {
+  padding: 20px;
+  position: "relative";
+}
+
+.container_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.float_button {
+  background-color: #3ecc75;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+
+  transition: 0.3s ease all;
+}
+
+.float_button:hover {
+  background-color: #37a863;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search_input {
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search_input:focus {
+  outline: none;
+  border-color: #3ecc75;
+  box-shadow: 0px 0px 5px rgba(62, 204, 117, 0.5);
+}
+
+.sort_selector {
+  padding: 10px;
+  margin-left: 10px;
+  width: 15%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sort_selector:focus {
+  outline: none;
+  border-color: #3ecc75;
+  box-shadow: 0px 0px 5px rgba(62, 204, 117, 0.5);
+}
